@@ -59,7 +59,6 @@ const generateHint = (guess) =>  {
 const mastermind = (guess) => {
   // solution = 'abcd'; // Comment this out to generate a random solution
   let hint = generateHint(guess);
-  console.log(solution);
 
   if (guess !== solution) {
     console.log(board.push('your guess: ' + guess + ' hint: ' + hint));
